@@ -56,7 +56,7 @@ gross: broccoli
 
 ``` .language-output
 true   (there's no field named "bacon", so it searched for literally "bacon") 
-true   (there's a field named "delicious", and it got the value which was "bacon")
-false  (there's a field named "gross", and it got the value which was "broccoli")
+false  (there's a field named "delicious", but it's not in the array)
+false  (there's a field named "gross", but it's not in the array)
 true   (there's no field named "vegan bacon strips", so it searched for literally "vegan bacon strips")
 ```
